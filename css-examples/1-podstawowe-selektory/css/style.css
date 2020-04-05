@@ -1,0 +1,51 @@
+/* Selektor znacznika */
+p{
+        color: gray;
+}
+
+/* Selektor klasy */
+.list-item{
+    color: red
+}
+
+/* Selektor id */
+#about {
+    background-color: pink;
+}
+
+/* Selektory potomstwa */
+
+#about p {
+    color: green;
+}
+
+#about > p {
+    color:blue;
+}
+
+/* Selektory rodzeństwa */
+
+.first + li {
+    color:orange;
+}
+
+.item ~ li {
+    color: blue;
+}
+
+/* Selektor uniwersalny */
+* {
+    font-size: 1.5em;
+}
+
+/* Selektor łączany */
+
+ul.list {
+    background-color: yellow;
+}
+
+/* .item.first-item > p a.link {
+
+} */
+
+

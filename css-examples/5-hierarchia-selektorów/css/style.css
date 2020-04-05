@@ -1,0 +1,26 @@
+#main-heading {
+    color: orange;
+}
+
+.heading {
+    color: olive;
+}
+
+h1 {
+    color:red !important;
+}
+
+
+* {
+    color:yellow;
+}
+
+
+
+/* h1 {
+    color:yellow;
+}
+
+h1 {
+    color: green;
+} */

@@ -1,0 +1,30 @@
+body{
+    background-color: #000;
+}
+
+div {
+    height: 200px;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+
+.predefined {
+    background-color: blue;
+}
+
+.hexadecimal {
+    background-color: #00ff00;
+}
+
+.hexadecimal-short {
+    background-color: #f23;
+}
+
+.rgb {
+    background-color: rgb(255,0,0);
+}
+
+.rgba {
+    background-color: rgba(0,255,0,0.6);
+}

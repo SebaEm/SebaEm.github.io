@@ -1,0 +1,59 @@
+button {
+    background-color: orange;
+    color: white;
+    border: 2px solid #00f;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.text-input {
+    background-color: lightgray;
+    border: green 2px solid;
+}
+
+/* .text-ipnut:hover {
+    background-color: indigo;
+} */
+
+.text-input:focus {
+    border: 2px solid red;
+}
+
+/* button {
+    background-color: orange;
+    color: white;
+    border: 2px dotted blue;
+    width: 100px;
+    height: 50px;
+}
+button:hover {
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    color: red;
+    border: 5px solid pink;
+} */
+
+
+
+.list-item:first-child {
+    color: red;
+}
+
+.list-item:last-child {
+    color: blue;
+}
+
+.list-item:nth-of-type(6) {
+    background-color: chartreuse;
+}
+
+.list-item:nth-of-type(3n+1) {
+    background-color: pink;
+}
+
+section p:nth-child(2) {
+    background-color: yellow;
+}
